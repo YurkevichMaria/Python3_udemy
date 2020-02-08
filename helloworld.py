@@ -48,21 +48,44 @@
 # print (song)
 
 
-# Выведите на печать вторую букву l из строки 'Hello Python!'
-# Присвойте строку переменной, затем выведите на печать букву
-my_string = 'Hello Python!'
-print(my_string[3])
 
-# Выведите на печать вторую букву l из строки 'Hello Python!'
-# Сделайте это без присваивания строки переменной, в одной строке кода.
-print('Hello Python!'[3])
 
-# Выведите на печать 'He' из строки 'Hello Python!' минимум двумя способами
-print('Hello Python!'[0:2])
-print(my_string[0:2])
-print(my_string[:2:1])
 
-# Создайте новую строку 'Path' из строки 'Hello Python!' путём конкатенации части строки и отсутствующего символа.
+
+###########INDEXING AND SLICING
+
+# # Выведите на печать вторую букву l из строки 'Hello Python!'
+# # Присвойте строку переменной, затем выведите на печать букву
+# my_string = 'Hello Python!'
+# print(my_string[3])
+#
+# # Выведите на печать вторую букву l из строки 'Hello Python!'
+# # Сделайте это без присваивания строки переменной, в одной строке кода.
+# print('Hello Python!'[3])
+#
+# # Выведите на печать 'He' из строки 'Hello Python!' минимум двумя способами
+# print('Hello Python!'[0:2])
+# print(my_string[0:2])
+# print(my_string[:2:1])
+#
+# # Создайте новую строку 'Path' из строки 'Hello Python!' путём конкатенации части строки и отсутствующего символа.
+# # Выведите новую строку на печать
+# my_substring = my_string[6] + 'a' + my_string[len(my_string)-5:len(my_string)-3]
+# print(my_substring)
+
+
+
+###########STRING PROPERTIES AND METHODS
+
+# Создайте новую строку 'Path' из строки 'Hello Python!' путём конкатенации частей строки и отсутствующего символа.
 # Выведите новую строку на печать
+my_string = 'Hello Python!'
 my_substring = my_string[6] + 'a' + my_string[len(my_string)-5:len(my_string)-3]
 print(my_substring)
+
+# Создайте строку 'zzzzzzz' при помощи умножения и выведите её на экран
+multipl_string = 'z' * 7
+print(multipl_string)
+
+# Сделайте все буквы строки из предыдущего вопроса заглавными и выведите её на экран
+print(multipl_string.upper())
