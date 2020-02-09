@@ -115,14 +115,22 @@
 
 ###########DICTIONARIES
 
-# Создайте объект dictionary, содержащий пары ключей и значений, выведите на экран одно значение
-my_dictionary = {'key1': 'value1', 'key2': 150, 'key3': ['v1','v2', 10]}
-print (my_dictionary['key3'])
-print (my_dictionary['key3'][0])
+# # Создайте объект dictionary, содержащий пары ключей и значений, выведите на экран одно значение
+# my_dictionary = {'key1': 'value1', 'key2': 150, 'key3': ['v1','v2', 10]}
+# print (my_dictionary['key3'])
+# print (my_dictionary['key3'][0])
+#
+# # Создайте объект dictionary, описывающий компьютер
+# computer_dict = {
+#     'screen': 2,
+#     'mouse': 1,
+#     'keyboard': 1
+# }
 
-# Создайте объект dictionary, описывающий компьютер
-computer_dict = {
-    'screen': 2,
-    'mouse': 1,
-    'keyboard': 1
-}
+
+###########TUPLES
+# Создайте объект tuple, описывающий компьютер и распакуйте его в соответствующие переменные.
+# Выведите переменные вызвав функцию print() один раз
+computer_tuple = ('Windows 10', '23.8" Full HD 10-point multi-touch', '9 Intel Core i3-9100T')
+operating_system, screen, processor = computer_tuple
+print (operating_system, screen, processor)
